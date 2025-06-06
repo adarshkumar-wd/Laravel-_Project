@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\AuthController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -37,3 +38,7 @@ Route::get("/channel" , [UserController::class  , "channel"]);
 Route::get("/about" , [UserController::class , "aboutUser"]);
 
 Route::get("getName/{name}" , [UserController::class , "getName"]);
+
+
+
+Route::get("user-login" , [AuthController::class , "UserLogin"]);
