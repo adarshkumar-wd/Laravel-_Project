@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+    @include('components.Header')    // include Sub View
     <h1>My First Project</h1>
 </body>
 </html>
