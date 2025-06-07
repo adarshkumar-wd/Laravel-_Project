@@ -9,13 +9,15 @@ use Illuminate\View\Component;
 class messageBox extends Component
 {
     public $msg;
+    public $class;
     /**
      * Create a new component instance.
      */
-    public function __construct($msg)
+    public function __construct($msg , $class)
     {
         //
         $this->msg=$msg;
+        $this->class=$class;
     }
 
     /**
