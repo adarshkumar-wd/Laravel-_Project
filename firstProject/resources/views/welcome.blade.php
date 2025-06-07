@@ -6,7 +6,17 @@
     <title>Document</title>
 </head>
 <body>
-    @include('components.Header')    // include Sub View
+
+    <!-- Use success Component Here -->
+     <x-message-box/>
+
+
+
+    <!-- @include('common.Header')    // include Sub View -->
+
+    <!-- This line checks first is view exist or not. -->
+    @include('common.Header')  
+
     <h1>My First Project</h1>
 </body>
 </html>
