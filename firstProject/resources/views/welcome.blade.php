@@ -8,7 +8,7 @@
 <body>
 
     <!-- Use success Component Here -->
-     <x-message-box/>
+     <x-message-box msg="Message passed Successfully"/>
 
 
 
